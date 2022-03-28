@@ -93,3 +93,50 @@
 // // branch, drinks with prices, food with prices And methods called drinksOrdered and foodOrdered.
 // // They should return a string saying [Your order] is ... with all items chosen with costs and total costs.
 
+// console.log("=================code from line 096 below is output=================\n");
+
+// let yourOrder = [];
+// let orderTotal = 0;
+
+// const coffeeShop = {
+//     branch: "The Kitchen",
+
+//     drinks: {
+//         // Flat_White: 2.05,
+//         Espresso: 1.99,
+//         Macchiato: 2.69,
+//         // Caffe_Mochha: 2.39,
+//         // Skinny_Latte: 2.59,
+//         Hazelnut_Latte: 2.69,
+// },    
+//     food:  {      
+//         BLT: 1.99,
+//         // Tuna_and_Mayo: 2.39,
+//         BBQ_Chicken: 2.99,
+//         // Ham_and_Cheese: 2.69,
+//         Steak_and_Cheese: 3.69
+// },
+//     foodOrdered(){
+//         for (let price of Object.values(coffeeShop.food)){orderTotal += price
+//         };
+
+//         yourOrder.push(Object.entries(coffeeShop.food))
+//         return(`${Object.entries(coffeeShop.food)}`);
+//     },
+
+//     drinksOrdered(){
+//         for (let price of Object.values(coffeeShop.drinks)){orderTotal += price
+//         };
+
+//         yourOrder.push(Object.entries(coffeeShop.food))
+//         return(`${Object.entries(coffeeShop.drinks)}`);
+//     }
+// }
+
+// coffeeShop.foodOrdered();
+// coffeeShop.drinksOrdered();
+
+// // console.log(`Your order from: ${branch}\n${yourOrder}`);
+// console.log(`Your order of:\n\n${yourOrder}\n`);
+// console.log(`Your order total is: £${orderTotal.toFixed(2)}`);
+
